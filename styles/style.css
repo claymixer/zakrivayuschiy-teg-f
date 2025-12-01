@@ -37,7 +37,9 @@
       var(--background-second-color) 0.01%,
       var(--background-third-color) 100%
     );
-  background-size: cover;
+  background-size: 100% 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   transition: background-image 0.5s ease;
   font-variation-settings: "wght" var(--font-main-text-weight, 400);
 }
@@ -213,15 +215,15 @@
     0 -1px var(--main-background-color);
 }
 
-@supports not (
-  text-shadow: -1px 0 var(--main-background-color),
-  0 1px var(--main-background-color),
-  1px 0 var(--main-background-color),
-  0 -1px var(--main-background-color)
+@supports (
+  -webkit-text-stroke-width: 1px
+) and (
+  -webkit-text-stroke-color: var(--main-background-color)
 ) {
   .card__label {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--main-background-color);
+    text-shadow: none;
   }
 }
 
