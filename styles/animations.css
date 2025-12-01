@@ -52,11 +52,6 @@
     transition: fill 0.3s ease 0.05s;
   }
   
-  .like-icon {
-    inline-size: 42px;
-    block-size: 38px;
-  }
-  
   .like-icon.is-liked .main-body {
     fill: var(--like-icon, red);
     transition: fill 0.3s ease;
