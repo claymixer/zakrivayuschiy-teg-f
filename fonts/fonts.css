@@ -1,1 +1,117 @@
 /* В этом файле вы импортируете все шрифты для сайта. Один из них вариативный и требует особенной настройки */
+
+@font-face {
+    font-display: swap;
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    src:
+      local('PressStart2P-Regular'),
+      url('../fonts/PressStart2P-Regular.woff') format('woff');
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: 'Inter';
+    font-style: normal;
+    src:
+      local('Inter-Variable'),
+      url('../fonts/Inter-Variable.woff2') format('woff2 supports variations'),
+      url('../fonts/Inter-Variable.woff2') format('woff2-variations');
+      font-weight: 400 785;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Font
+Press Start 2P
+Weight
+400
+Size
+23px
+Line height
+23px
+
+
+font-family: Press Start 2P;
+font-size: 65px;
+font-weight: 400;
+line-height: 65px;
+letter-spacing: 0em;
+text-align: left;
+
+
+font-family: Press Start 2P;
+font-size: 14px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Press Start 2P;
+font-size: 14px;
+font-weight: 400;
+line-height: 13px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Press Start 2P;
+font-size: 14px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Press Start 2P;
+font-size: 14px;
+font-weight: 400;
+line-height: 13px;
+letter-spacing: 0em;
+text-align: left;
+
+
+
+font-family: Inter;
+font-size: 18px;
+font-weight: 785;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+font-variation-settings: 'slnt' 0;
+
+
+
+font-family: Inter;
+font-size: 18px;
+font-weight: 465;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+font-variation-settings: 'slnt' 0;
+
+font-family: Inter;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+ */
